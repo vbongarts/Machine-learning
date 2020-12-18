@@ -14,9 +14,6 @@ class MyAgent(MLAgent):
 random.seed(1)
 
 my_agent = MyAgent(alpha=(1), epsilon=(0.1))
-
-
-random_agent = RandomAgent()
 train(my_agent, 19000)
 
 my_agent.learning = False
