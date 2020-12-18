@@ -1,6 +1,6 @@
 import random 
 
-import MLAgent, is_winner, opponent, RandomAgent, train_and_plot, load, save, validate, plot_validation
+from bke import MLAgent, is_winner, opponent, RandomAgent, train_and_plot, load, save, validate, plot_validation
 
 class MyAgent(MLAgent):
     def evaluate(self,board):
